@@ -10,4 +10,8 @@ class PostsController < ApplicationController
   def create
 
   end
+
+  def create_params
+    params.require(:post).permit(:text)
+  end
 end
