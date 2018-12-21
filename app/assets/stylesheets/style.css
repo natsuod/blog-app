@@ -1,0 +1,87 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #fff;
+  font-size: 1.2rem;
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+.header {
+  width: 100%;
+  height: 110px;
+  background-color: #26c6da ;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  padding-top: 20px;
+  font-size: 40px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #f06292;
+}
+
+.global-nav {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.global-nav .nav-item {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.global-nav .nav-item a {
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  border-radius: 8px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.global-nav .nav-item a:hover {
+  background-color: #f06292;
+}
+
+.posts {
+  width: 600px;
+  min-height: 100px;
+  border-radius: 5px;
+  background-color: #b2ebf2;
+  margin: 50px auto;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.text {
+  width: 500px;
+  padding: 30px 0 20px;
+  margin: 0 auto;
+  color: #4e342e;
+  line-height: 30px;
+}
+
+.post-btn {
+  display: inline-block;
+  margin: 0 10px 20px;
+}
+
+.firstBtn {
+  padding-left: 50px;
+}
+
+.post-btn a {
+   transition: 0.5s;
+}
+
+.post-btn a:hover {
+  color: #26c6da;
+}
