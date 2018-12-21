@@ -1,0 +1,12 @@
+<div class="posts new">
+  <%= form_for @new do |f| %>
+  <div class="text">
+      <%= f.text_area :text, placeholder: "文章を投稿してください", style: 'width: 100%;height: 200px;border-color: #26c6da;' %>
+  </div>
+  <div class="buttons">
+    <ul>
+      <li class="post-btn firstBtn"><%= f.submit "SUBMIT", class: "post-btn firstBtn" %></li>
+    </ul>
+  </div>
+  <% end %>
+</div>
