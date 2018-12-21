@@ -8,7 +8,8 @@ class PostsController < ApplicationController
   end
 
   def create
-
+    Post.create(create_params)
+    redirect_to action: 'index'
   end
 
   def create_params
