@@ -1,0 +1,14 @@
+<% @posts.each do |post| %>
+<div class="posts">
+  <div class="text">
+    <p><%= simple_format(post.text) %></p>
+  </div>
+  <div class="buttons">
+    <ul>
+      <li class="post-btn firstBtn"><a href="#">SHOW</a></li>
+      <li class="post-btn"><a href="#">EDIT</a></li>
+      <li class="post-btn"><a href="#">DELETE</a></li>
+    </ul>
+  </div>
+</div>
+<% end %>
