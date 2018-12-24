@@ -36,7 +36,7 @@ a {
   margin: 0 10px;
 }
 
-.global-nav .nav-item a {
+.nav-item .button {
   display: inline-block;
   width: 100px;
   height: 30px;
@@ -48,7 +48,7 @@ a {
   transition: 0.5s;
 }
 
-.global-nav .nav-item a:hover {
+.nav-item .button:hover {
   background-color: #f06292;
 }
 
