@@ -12,6 +12,10 @@ class PostsController < ApplicationController
     Post.create(create_params)
   end
 
+  def show
+    @post = Post.find(params[:id])
+  end
+
   private
   def create_params
     params.require(:post).permit(:text).merge(user_id: current_user.id)
