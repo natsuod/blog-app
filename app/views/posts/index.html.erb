@@ -5,7 +5,7 @@
   </div>
   <div class="buttons">
     <ul>
-      <li class="post-btn firstBtn"><a href="#">SHOW</a></li>
+      <li class="post-btn firstBtn"><%= link_to 'SHOW', "/posts/#{post.id}", method: :get %></li>
       <li class="post-btn"><a href="#">EDIT</a></li>
       <li class="post-btn"><a href="#">DELETE</a></li>
     </ul>
