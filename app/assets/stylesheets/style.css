@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  color: #fff;
+  color: #4e342e;
   font-size: 1.2rem;
   font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 }
@@ -36,7 +36,7 @@ a {
   margin: 0 10px;
 }
 
-.global-nav .nav-item a {
+.nav-item .button {
   display: inline-block;
   width: 100px;
   height: 30px;
@@ -48,7 +48,7 @@ a {
   transition: 0.5s;
 }
 
-.global-nav .nav-item a:hover {
+.nav-item .button:hover {
   background-color: #f06292;
 }
 
@@ -65,7 +65,6 @@ a {
   width: 500px;
   padding: 30px 0 20px;
   margin: 0 auto;
-  color: #4e342e;
   line-height: 30px;
 }
 
@@ -88,4 +87,17 @@ a {
 
 .new {
   background-color: #fff;
+}
+
+.form {
+  width: 300px;
+  height: 400px;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 50px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #f06292;
+  margin: 50px auto;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
 }
