@@ -1,0 +1,12 @@
+<div class="posts new">
+  <%= form_tag("/posts/#{@post.id}", method: :patch) do %>
+  <div class="text">
+      <textarea name="text" placeholder="text" style='width: 100%;height: 200px;border-color: #26c6da;'><%= @post.text %></textarea>
+  </div>
+  <div class="buttons">
+    <ul>
+      <li class="post-btn firstBtn"><input type="submit" value="EDIT" class="post-btn firstBtn"></li>
+    </ul>
+  </div>
+  <% end %>
+</div>
