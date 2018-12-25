@@ -21,6 +21,17 @@ class PostsController < ApplicationController
     post.destroy if post.user_id == current_user.id
   end
 
+  def edit
+    @post = Post.find(params[:id])
+  end
+
+  def update
+    post = Post.find(params[:id])
+    if post.user_id == current_user.id
+      post.update(create_params)
+    end
+  end
+
   private
   def create_params
     params.require(:post).permit(:text).merge(user_id: current_user.id)
