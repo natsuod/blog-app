@@ -7,7 +7,7 @@
     <ul>
       <li class="post-btn firstBtn"><%= link_to 'SHOW', "/posts/#{post.id}", method: :get %></li>
       <li class="post-btn"><a href="#">EDIT</a></li>
-      <li class="post-btn"><a href="#">DELETE</a></li>
+      <li class="post-btn"><%= link_to 'DELETE', "/posts/#{post.id}", method: :delete %></li>
     </ul>
   </div>
 </div>
